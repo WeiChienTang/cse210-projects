@@ -71,7 +71,7 @@ class Activity
         Console.ForegroundColor = ConsoleColor.White;
         DisPlayAnimation(4);
         Console.ForegroundColor = ConsoleColor.Green;
-        Console.WriteLine($"You have completed anotehr {time} seconds of the {activityName} Activity.");
+        Console.WriteLine($"You have completed another {time} seconds of the {activityName} Activity.");
         Console.ForegroundColor = ConsoleColor.White;
         DisPlayAnimation(4);
     }
