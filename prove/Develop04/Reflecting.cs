@@ -22,7 +22,7 @@ class Reflecting : Activity
         Console.ForegroundColor = ConsoleColor.White;
         Console.WriteLine("Consider the following prompt:");
         Console.WriteLine();
-        Console.ForegroundColor = ConsoleColor.Yellow;
+        Console.ForegroundColor = ConsoleColor.DarkYellow;
         Console.WriteLine($"--- {ReflectQuestion[new Random().Next(ReflectQuestion.Count())]} ---");
         Console.WriteLine();
         Console.ForegroundColor = ConsoleColor.White;

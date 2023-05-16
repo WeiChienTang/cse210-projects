@@ -41,7 +41,7 @@ class Activity
         while (DateTime.Now < endTime)
         {
             Console.Write(result[index]);
-            Thread.Sleep(150);
+            Thread.Sleep(300);
             Console.Write("\b \b");
 
             index++;

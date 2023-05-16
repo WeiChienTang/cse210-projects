@@ -27,18 +27,17 @@ class Listing : Activity
         DisplayTime(5);        
 
         Console.WriteLine("> ");
-        List<string> Answewr = new List<string>();
+        List<string> answer = new List<string>();
         DateTime endTime = DateTime.Now.AddSeconds(time);       
 
         while (DateTime.Now < endTime)
         {
             Console.Write("> ");
-            Answewr.Add(Console.ReadLine());
+            answer.Add(Console.ReadLine());
         }
 
         Console.ForegroundColor = ConsoleColor.Green;
-        Console.WriteLine($"You listed {Answewr.Count()} items!");
-        Console.WriteLine();
+        Console.WriteLine($"You listed {answer.Count()} items!");
         ShowWellDone(time: time, activityName: "listening");
     }
 
